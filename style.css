@@ -1,0 +1,64 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 50px 50px 0px 50px;
+    background-color: #FBFADA;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    color: #12372A;
+  }
+
+.main {
+    flex: 1;
+  }
+  
+.plate-image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.plate {
+    width: 50%;
+}
+h1 {
+    font-size: 5rem;
+}
+
+footer {
+    text-align: right;
+    color: #802926;
+}
+
+#unique {
+    color:#802926;
+}
+
+@media (max-width: 680px) {
+    #logo {
+        width: 100px;
+    }
+    h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .plate {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    .plate-image{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}
